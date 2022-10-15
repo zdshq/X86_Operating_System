@@ -3,3 +3,6 @@ H:/project/x86_operating/diy-x86os/start/start/build/CMakeFiles/rebuild_cache.di
 H:/project/x86_operating/diy-x86os/start/start/build/source/boot/CMakeFiles/rebuild_cache.dir
 H:/project/x86_operating/diy-x86os/start/start/build/source/boot/CMakeFiles/boot.dir
 H:/project/x86_operating/diy-x86os/start/start/build/source/boot/CMakeFiles/edit_cache.dir
+H:/project/x86_operating/diy-x86os/start/start/build/source/loader/CMakeFiles/loader.dir
+H:/project/x86_operating/diy-x86os/start/start/build/source/loader/CMakeFiles/edit_cache.dir
+H:/project/x86_operating/diy-x86os/start/start/build/source/loader/CMakeFiles/rebuild_cache.dir
