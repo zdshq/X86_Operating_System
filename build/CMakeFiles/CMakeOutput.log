@@ -15,16 +15,16 @@ The C compiler identification is GNU, found in "H:/project/x86_operating/diy-x86
 Determining if the C compiler works passed with the following output:
 Change Dir: H:/project/x86_operating/diy-x86os/start/start/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/张大帅/.eide/bin/builder/msys/bin/make.exe -f Makefile cmTC_3497c/fast && /usr/bin/make  -f CMakeFiles/cmTC_3497c.dir/build.make CMakeFiles/cmTC_3497c.dir/build
-make[1]: Entering directory `/h/project/x86_operating/diy-x86os/start/start/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3497c.dir/testCCompiler.c.obj
-C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -o CMakeFiles/cmTC_3497c.dir/testCCompiler.c.obj -c H:/project/x86_operating/diy-x86os/start/start/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_3497c.exe
-E:/ESP/tools/cmake/3.20.3/bin/cmake.exe -E rm -f CMakeFiles/cmTC_3497c.dir/objects.a
-C:/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe cr CMakeFiles/cmTC_3497c.dir/objects.a @CMakeFiles/cmTC_3497c.dir/objects1.rsp
-C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -Wl,--whole-archive CMakeFiles/cmTC_3497c.dir/objects.a -Wl,--no-whole-archive -o cmTC_3497c.exe -Wl,--out-implib,libcmTC_3497c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_3497c.dir/objects.a: linker input file unused because linking not done
-make[1]: Leaving directory `/h/project/x86_operating/diy-x86os/start/start/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):C:/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_51b67/fast && C:/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_51b67.dir/build.make CMakeFiles/cmTC_51b67.dir/build
+make[1]: Entering directory 'H:/project/x86_operating/diy-x86os/start/start/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51b67.dir/testCCompiler.c.obj
+C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -o CMakeFiles/cmTC_51b67.dir/testCCompiler.c.obj -c H:/project/x86_operating/diy-x86os/start/start/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_51b67.exe
+E:/ESP/tools/cmake/3.20.3/bin/cmake.exe -E rm -f CMakeFiles/cmTC_51b67.dir/objects.a
+C:/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe cr CMakeFiles/cmTC_51b67.dir/objects.a @CMakeFiles/cmTC_51b67.dir/objects1.rsp
+C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -Wl,--whole-archive CMakeFiles/cmTC_51b67.dir/objects.a -Wl,--no-whole-archive -o cmTC_51b67.exe -Wl,--out-implib,libcmTC_51b67.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_51b67.dir/objects.a: linker input file unused because linking not done
+make[1]: Leaving directory 'H:/project/x86_operating/diy-x86os/start/start/build/CMakeFiles/CMakeTmp'
 
 
 
