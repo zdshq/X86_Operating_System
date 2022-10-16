@@ -1,5 +1,10 @@
 __asm__(".code16gcc");
 
+
+#include "comm/boot_info.h"
+
+static _boot_info_t boot_info;
+
 static void show_msg (const char *msg)
 {
     char c;
