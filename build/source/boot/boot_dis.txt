@@ -105,7 +105,9 @@ void boot_entry(void) {
     ((void (*) (void))LOADER_START_ADDR)();
     7c2d:	66 b8 00 80 00 00    	mov    $0x8000,%eax
     7c33:	66 ff d0             	calll  *%eax
+    
 
+} 
     7c36:	90                   	nop
     7c37:	66 c9                	leavel 
     7c39:	66 c3                	retl   

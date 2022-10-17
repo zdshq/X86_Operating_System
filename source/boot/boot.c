@@ -19,6 +19,7 @@ __asm__(".code16gcc");
  */
 void boot_entry(void) {
     ((void (*) (void))LOADER_START_ADDR)();
+    
 
 } 
 

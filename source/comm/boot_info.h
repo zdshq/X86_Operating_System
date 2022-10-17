@@ -2,7 +2,7 @@
 #define BOOT_INFO_H
 
 #include "types.h"
-#define BOOT_RAM_REGION_MAX 10;
+#define BOOT_RAM_REGION_MAX 10
 
 typedef struct _boot_info_t {
     struct {
@@ -11,7 +11,17 @@ typedef struct _boot_info_t {
     }ram_region_cfg[BOOT_RAM_REGION_MAX];
 
     int ram_region_count;
-}
+}boot_info_t;
 
+typedef struct SMAP_entry {
+ 
+	uint32_t BaseL; // base address uint64_t
+	uint32_t BaseH;
+	uint32_t LengthL; // length uint64_t
+	uint32_t LengthH;
+	uint32_t Type; // entry Type，值为1时表明为我们可用的RAM空间
+	uint32_t ACPI; // extended, bit0=0时表明此条目应当被忽略
+ 
+}__attribute__((packed)) SMAP_entry_t;
 
 #endif

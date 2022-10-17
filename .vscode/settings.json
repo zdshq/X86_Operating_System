@@ -1,13 +1,33 @@
 {
     "cmake.configureOnOpen": false,
     "cmake.sourceDirectory": "${workspaceFolder}/.",
+    "C_Cpp.autocomplete": "Default",
     "C_Cpp.errorSquiggles": "Disabled",
+    "editor.minimap.enabled": true,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "[cpp]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+        "editor.wordBasedSuggestions":true
+    },
+    "[c]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+        "editor.wordBasedSuggestions":true
+    },
     "files.associations": {
         "dirent.h": "c",
         "lib_syscall.h": "c",
         "task.h": "c",
         "types.h": "c",
         "fcntl.h": "c",
-        "_default_fcntl.h": "c"
+        "_default_fcntl.h": "c",
+        "boot_info.h": "c"
     },
 }
